@@ -14,4 +14,4 @@ jobs:
                 
                - name : Deploy to Render
                  run: |
-                    curl -X POST ${{ secret.SECRET_RENDER_HOOK }}
+                    curl -X POST ${{ secrets.SECRET_RENDER_HOOK }}
