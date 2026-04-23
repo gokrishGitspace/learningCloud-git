@@ -24,6 +24,13 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+app.get('/data', (req, res) => {
+  res.json({
+    status: 'OK',
+    message: 'data Action is working'
+  });
+});
+
 // Example POST route
 app.post('/api/data', (req, res) => {
   const { name, age } = req.body;
