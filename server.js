@@ -14,7 +14,7 @@ app.use(express.json()); // parse JSON
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('Server is running 🚀');
+  res.send('Server is running for the cloud! 🚀');
 });
 
 app.get('/api/health', (req, res) => {
