@@ -1,10 +1,10 @@
 // server.js
-
-// Import dependencies
-const express = require('express');
+import express from 'express';
+import cors from 'cors';
 
 // Create app
 const app = express();
+app.use(cors()); // Enable CORS for all routes
 
 // Port
 const PORT = process.env.PORT || 3000;
