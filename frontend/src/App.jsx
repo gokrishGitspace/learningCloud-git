@@ -10,9 +10,9 @@ function App() {
 ,[]);
  
   return (
-<>  {
-JSON.stringify(data)}  </> 
-
+    <>
+      {JSON.stringify(data)}
+    </>
   );
 }
 
